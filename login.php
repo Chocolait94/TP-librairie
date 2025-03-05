@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login_username'])) {
 </head>
 <body>
     <main>
-    <form action="index.php" method="post">
+    <form action="Acceuil.php" method="post">
         <label for="username">Username :</label>
         <input type="text" name="username" id="username" required><br>
         <label for="password">Password :</label>

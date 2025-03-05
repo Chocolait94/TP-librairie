@@ -10,6 +10,7 @@ include 'PDO.php';
     exit();
 }*/
 
+
 try {
     $dsn = "mysql:dbname=eshop;host=localhost";
     $db_user = "root";
